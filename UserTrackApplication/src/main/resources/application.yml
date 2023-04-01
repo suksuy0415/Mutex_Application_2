@@ -1,0 +1,8 @@
+server:
+  port: 8083
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongodbservice:27017/muzix_db
+  application:
+    name: user-track-service
